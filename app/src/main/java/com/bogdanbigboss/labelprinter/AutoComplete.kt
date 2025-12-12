@@ -121,6 +121,7 @@ fun AutoComplete() {
                         category = newValue
                         if (!expanded) expanded = true
                     },
+                    placeholder = { Text("Start entering the name") },
                     colors = TextFieldDefaults.colors(
                         focusedContainerColor = Color.Transparent,
                         unfocusedContainerColor = Color.Transparent,
